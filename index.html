@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  
+    <link rel="stylesheet" href="main.css">
     
     <title>Portfolio</title>
 </head>
 <body class="bg-secondary">
-
-    
+       
      <!-- Navigation Bar Section -->
     <nav class=" navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <a class="navbar-brand p-2 bm-2 bg-success text-white" href="index.html">Somat Thakali</a>
@@ -34,34 +34,52 @@
 
       <!-- Main page section -->
     
-      <div class="container bg-light mt-4">
+      <div class="container bg-light mt-4 h-100">
             <div class="row">
               <div class="col">
                 <h5 class="page-header text-success pt-4 pb-3 border-bottom border-1">About me</h5>
             </div>
         </div> <!--end of row-->
                 <div class="row pl-2 pb-4">
-                        <div class="col-md-3 pt-2 pl-2 pr-2">
-                                <img src="./images/profile.jpg" max-height="150px" max-width="150px" class="img-fluid img-thumbnail" alt="Responsive image">
+                        <div class="  col-sm-3 pt-2 pl-2 pr-2">
+                                <img src="./images/profile.jpg"  class="img-fluid img-thumbnail " alt="Responsive image">
                         </div>
-
-                        <div class="col-md-9 pt-2 pb-2 ">
-                            <p class="captions">My name is Somat Thakali. Originally I am from Nepal, but Currently, 
+                        
+                        <div class="col-sm-9 pt-2 pb-2 ">
+                            <p>My name is Somat Thakali. Originally I am from Nepal, but Currently, 
                                 I live in New York City since 2007. </br>I did my undergraduate on Biomedical Engineer from 
                                 The City College of New York. I worked in the Neural research lab for 2 years. My job 
                                 there was to design the algorithm to analyze the data generated from Transcranial Direct 
                                 Current Stimulation (tDCS) device. I was also a part of Backend developer team for a Burk 
                                 Rehabilitation Center. I was responsible for creating and executing a fully functioning 
                                 web application responsible for managing and storing patient demographic and neurorehabilitation 
-                                data within in the application as well as exporting and importing data from an external database.</p>
+                                data within in the application as well as exporting and importing data from an external database.
+                            
+                            </p>
                                 
                         </div>
+                       
+
+                        
                 </div>
              
         </div> <!--end of container-->
     
-    <div class="card-footer text-white bg-dark fixed-bottom text-center">
-            copywrite©
+
+        
+            
+    
+    <div class="card-footer text-white bg-dark fixed-bottom text-center border-top border-success ">
+
+            <div> 
+              <ul class="social-network social-circle ">
+                     <a href="#" class="btn btn-social-icon btn-linkedin "> <span class="fa fa-linkedin"></span></a></li>
+                    <a href="#" class="btn btn-social-icon btn-github"> <span class="fa fa-github"></span></a></li>
+                   
+            </ul>
+           
+            <P> copywrite© </P>  
+           
     </div> 
 </body>
 </html>
